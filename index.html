@@ -3,8 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <title>Password Page</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
+<div id="full-page">
+    <div id="content-container">
+        <p>Password</p>
+            <div class="password-and-strength-container">
+                <label for="password-box"></label><input type="password" id="password-box">
+                <p id="strength"></p>
+            </div>
+        <p>Re-type Password</p>
+            <div class="password-and-strength-container">
+                <label for="retype-password-box"></label><input type="password" id="retype-password-box">
+                 <p id="is-a-match-display-box"></p>
+            </div>
+    </div>
+</div>
+<script src="index.js"></script>
 </body>
 </html>

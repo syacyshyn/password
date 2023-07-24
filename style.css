@@ -1,0 +1,30 @@
+.password-and-strength-container {
+    /*display: flex;*/
+}
+
+#strength {
+    color: red;
+    margin-top: 0;
+    font-size: 12px;
+
+}
+
+input {
+    padding: 0;
+}
+
+#content-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#full-page {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#is-a-match-display-box {
+    margin-top: 0;
+    font-size: 12px;
+    color: green;
+}
